@@ -1,0 +1,45 @@
+:host {
+  .top-bar {
+    background-color: rgb(39, 33, 209);
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    height: 30px;
+    padding: 15px;
+    text-transform: uppercase;
+  }
+
+  .region-card {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 40px;
+    color: #545454;
+    border: 0px;
+    box-shadow: 2px 2px 7px #878787;
+    font-weight: 600;
+    padding: 0;
+    &:hover {
+      background-color: #eeeeee;
+    }
+    span {
+      font-size: 14px;
+      font-weight: 400;
+      position: relative;
+      display: block;
+      width: 100%;
+      top: 20px;
+      right: 0px;
+    }
+  }
+
+  .list-container {
+    display: flex;
+    padding: 15px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,6 @@
+<nav class="top-bar">WEATHER FORECAST BY REGION</nav>
+<div class="list-container">
+  <button class="region-card" *ngFor="let region of regionList" [routerLink]="'weather'+region.path">{{region.code}}
+  <span>{{region.label}}</span>
+  </button>
+</div>

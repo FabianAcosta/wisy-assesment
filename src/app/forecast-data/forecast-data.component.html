@@ -1,0 +1,7 @@
+<nav class="top-bar"><a  routerLink="../.." [text]="'<'"></a>{{regionName}}</nav>
+<p>forecast data for the next week</p>
+<div class="chart-container">
+  <canvas  id="forecastChart" #forecastChart>{{ chart }}</canvas>
+</div>
+<span class="error" *ngIf="error">UNABLE TO FETCH FORECAST DATA TRY RELOADING THE PAGE!</span>
+
